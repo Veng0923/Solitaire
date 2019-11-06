@@ -1,3 +1,5 @@
+package src;
+
 public class Dimen {
     //  边界距
     public static final int offX = 10;

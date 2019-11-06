@@ -1,4 +1,4 @@
-
+package src;
 
 public class Signal {
     public static final int[] SORTS = { 100,101,102,103 };

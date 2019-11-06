@@ -1,3 +1,5 @@
+package src;
+
 import java.util.ArrayList;
 
 public class SortCards extends Cards implements MoveAble {
@@ -8,6 +10,7 @@ public class SortCards extends Cards implements MoveAble {
         pop();
     }
 
+    @Override
     public boolean add(Card card) {
         int number = card.getNumber();
         int suit = card.getSuit();

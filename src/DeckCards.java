@@ -1,3 +1,5 @@
+package src;
+
 import java.util.ArrayList;
 
 public class DeckCards extends Cards implements MoveAble {
@@ -15,6 +17,7 @@ public class DeckCards extends Cards implements MoveAble {
         }
     }
 
+    @Override
     public boolean add(Card card) {
 
         try {
